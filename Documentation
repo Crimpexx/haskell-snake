@@ -8,4 +8,5 @@
   4.In das Verzeichnis das wir entpackt haben springen z.B. C:\Users\Jonas\Downloads\gloss-master\gloss-master\gloss-examples
   5.stack init
   6.stack build
+  7.
   Setup Windows VM because of permission issues
