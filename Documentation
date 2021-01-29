@@ -1,4 +1,10 @@
 22.01.2021 - Finding the right gui
   Issues with installing the recommended gui threepeny
   Installing the gloss gui and trying to execute an example
+  1.Install Stack
+  2.stack install gloss
+  3.Unter https://hackage.haskell.org/package/gloss-1.13.2.1/gloss-1.13.2.1.tar.gz 
+  downloaden und entpacken
+  4.In das Verzeichnis das wir entpackt haben springen z.B. C:\Users\Jonas\Downloads\gloss-master\gloss-master\gloss-examples
+  5.
   Setup Windows VM because of permission issues
