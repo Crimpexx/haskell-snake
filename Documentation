@@ -6,5 +6,6 @@
   3.Unter https://hackage.haskell.org/package/gloss-1.13.2.1/gloss-1.13.2.1.tar.gz 
   downloaden und entpacken
   4.In das Verzeichnis das wir entpackt haben springen z.B. C:\Users\Jonas\Downloads\gloss-master\gloss-master\gloss-examples
-  5.
+  5.stack init
+  6.stack build
   Setup Windows VM because of permission issues
