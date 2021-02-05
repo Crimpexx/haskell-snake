@@ -1,10 +1,10 @@
 - Ubuntu aufsetzten für Testzwecke Goss Cabal
 - Snapshot der Linux VM zum Rollback erstellt
 - $ sudo apt-get install haskell-platform
-- Guest Additions installieren
+- Guest Additions installieren (Damit man Befehle leichter in und aus der VM kopieren kann zu Dokumentationszwecken und für Copy Paste)
     -$ sudo apt install build-essential dkms linux-headers-$(uname -r)
     -Guest Additions einlegen und Installieren
-- $ sudo cabal update
+- $ sudo cabal update (Um die aktuelle cabal Version zu Updaten)
 - $ cabal --version
-- $ cabal install cabal-install
+- $ cabal install cabal-install (Weil cabal nicht den alten legacy Installer verwenden will)
 
