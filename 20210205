@@ -1,4 +1,4 @@
-- Ubuntu aufsetzten für Testzwecke Goss Cabal
+- Ubuntu aufsetzten (Für Testzwecke Gloss Cabal da dies unter Linux deutlich besser supportet ist)
 - Snapshot der Linux VM zum Rollback erstellt
 - $ sudo apt-get install haskell-platform
 - Guest Additions installieren (Damit man Befehle leichter in und aus der VM kopieren kann zu Dokumentationszwecken und für Copy Paste)
