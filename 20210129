@@ -1,0 +1,5 @@
+1. Versuchte Gloss mit Cabal unter Windows zu installieren
+2. Cabal Update, da Version Gloss nicht mehr unterstützt
+3. Cabal Installation scheitert an Failed to build OpenGLRaw-3.3.4.0 (which is required by
+gloss-1.13.2.1).
+4. Versuche OpenGLRaw-3.3.4.0 mit Cabal zu Installieren
