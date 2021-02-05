@@ -1,3 +1,4 @@
 - Ubuntu aufsetzten für Testzwecke Goss Cabal
 - Snapshot der Linux VM zum Rollback erstellt
 - $ sudo apt-get install haskell-platform
+- $ sudo cabal update
