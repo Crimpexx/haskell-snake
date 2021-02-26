@@ -6,6 +6,8 @@
   Datei angelegt unter /etc/apt/apt.conf.d/proxy.conf
   Zeilen hinzugefügt:
   Acquire::http::Proxy "http://192.168.100.1:8080";
-  Acquire::https::Proxy "http://192.168.100.1:8080";
+  Acquire::https::Proxy "https://192.168.100.1:8080";
   Nach Anleitung https://www.serverlab.ca/tutorials/linux/administration-linux/how-to-set-the-proxy-for-apt-for-ubuntu-18-04/
+5. Guest Addition nach Anleitung siehe anderes Dokument
+  https://askubuntu.com/questions/22743/how-do-i-install-guest-additions-in-a-virtualbox-vm
   
