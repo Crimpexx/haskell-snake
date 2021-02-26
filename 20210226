@@ -22,5 +22,8 @@
    
 7.https://stackoverflow.com/questions/9310218/cabal-fails-with-proxy-with-authentication
   Überlegung proxy client zu verwenden polipo
+
+8. Im moment Tendenz zu daheim Server aufsetzten und in der Schule über VPN über mobile Daten nach hause zu verbinden und dort über
+  SSH auf den Rechner zugreifen um Daten zu spaaren.
   
   
