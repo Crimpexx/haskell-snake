@@ -1,3 +1,11 @@
 1. Wieder zurück in der Schule
 2. Überlegung ob ich das ganze neu installiere soll oder das ganze auf einen Laptop ziehen soll
 3. Fürs erste in Schule neu einrichten mit Benutzer:jr Pass:Kennwort (Anleitung im letzten Dokument)
+  https://ubuntu.com/download/desktop/thank-you?version=20.04.2.0&architecture=amd64
+4.Proxy Einstellungen für apt eingerichtet
+  Datei angelegt unter /etc/apt/apt.conf.d/proxy.conf
+  Zeilen hinzugefügt:
+  Acquire::http::Proxy "http://192.168.100.1:8080";
+  Acquire::https::Proxy "http://192.168.100.1:8080";
+  Nach Anleitung https://www.serverlab.ca/tutorials/linux/administration-linux/how-to-set-the-proxy-for-apt-for-ubuntu-18-04/
+  
