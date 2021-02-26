@@ -1,10 +1,15 @@
-- Ubuntu aufsetzten (Für Testzwecke Gloss Cabal da dies unter Linux deutlich besser supportet ist)
-- Snapshot der Linux VM zum Rollback erstellt
-- $ sudo apt-get install haskell-platform
-- Guest Additions installieren (Damit man Befehle leichter in und aus der VM kopieren kann zu Dokumentationszwecken und für Copy Paste)
+1. Versuch das Ganze über cabal auf einer Linux VM zu machen da dort die installation von Gloss deutlich besser Dokumentiert ist.
+2. Ubuntu aufsetzten (Für Testzwecke Gloss Cabal da dies unter Linux deutlich besser supportet ist)
+3. Snapshot der Linux VM zum Rollback erstellt (Falls man etwas falsches konfiguriert und auf einen frischen Stand zurück will)
+4. $ sudo apt-get install haskell-platform (Um haskell zu installieren)
+5. Guest Additions installieren 
+    (Damit man Befehle leichter in und aus der VM kopieren kann zu Dokumentationszwecken und für Copy Paste)
+    https://askubuntu.com/questions/22743/how-do-i-install-guest-additions-in-a-virtualbox-vm
     -$ sudo apt install build-essential dkms linux-headers-$(uname -r)
     -Guest Additions einlegen und Installieren
-- $ sudo cabal update (Um die aktuelle cabal Version zu Updaten)
-- $ cabal --version
-- $ cabal install cabal-install (Weil cabal nicht den alten legacy Installer verwenden will)
+6. $ sudo cabal update (Um die aktuelle cabal Version zu Updaten, da die Version die drauf ist veraltet ist)
+7. $ cabal --version 
+    (Um zu prüfen ob das Update auch geklappt hat)
+8 $ cabal install cabal-install (Weil cabal nicht den alten legacy Installer verwenden will, bzw dies
+    der wesentlich neuere Installer zu sein schein)
 
