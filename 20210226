@@ -10,5 +10,12 @@
   Nach Anleitung https://www.serverlab.ca/tutorials/linux/administration-linux/how-to-set-the-proxy-for-apt-for-ubuntu-18-04/
 5. Guest Addition nach Anleitung siehe anderes Dokument
   https://askubuntu.com/questions/22743/how-do-i-install-guest-additions-in-a-virtualbox-vm
+6. cabal braucht proxy settings
+   cabal install directory /home/username/.cabal
+   unter directory /home/username/.cabal/config da configuration anpassen
+   Versuche:
+   https://github.com/haskell/cabal/issues/1138
+   https://superuser.com/questions/272168/how-do-i-set-the-proxy-for-cabal
+   https://stackoverflow.com/questions/19690206/no-proxy-flag-for-cabal-under-windows
   
   
