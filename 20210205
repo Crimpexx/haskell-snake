@@ -11,5 +11,5 @@
 7. $ cabal --version 
     (Um zu prüfen ob das Update auch geklappt hat)
 8 $ cabal install cabal-install (Weil cabal nicht den alten legacy Installer verwenden will, bzw dies
-    der wesentlich neuere Installer zu sein schein)
+    der wesentlich neuere Installer zu sein scheint)
 
