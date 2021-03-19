@@ -1,1 +1,17 @@
+1. Neue Idee: Sich per vpn ins Heimnetzwerk zu verbinden, um dort über SSH auf ein Ubuntu auf meinem (JR) Homerechner zu schalten. Das ganze geht über Mobile Daten,
+   da es aber SSH ist sollte der Datenverbrauch in ordnung sein. Mit dem Handy einen Hotspot aufgemacht und dann per Laptop in der Schule über VPN eine SSH-Verbindung 
+   auf das Ubuntu daheim schalten. Somit hoffentlich keine Probleme mehr im bezug auf cabal und Proxy Server 
 
+2. Vorbereitungen:
+
+    - Anpassung an der Homefirewall um SSH durchzuschleifen. 
+    - Feste IP Adresse auf dem Ubuntu vergeben, damit sich die Adresse nicht plötzlich verändert und man nicht mehr auf den Server kommt
+          -Oben Rechts bei Netzwerk auf Lan Einstellungen, dann auf das Zahnrad und eine statische Adresse im Netz vergeben
+    - Problem wahrscheinlich spezifisch bei mir daheim: Teredo Tunnel Block verhindert VPN aufbau mit mobilen Daten
+    - Über sudo apt-get install openssh-server SSH Funktionalität auf dem Homedebian bereitstellen
+    - In VirtualBox Netzwerkbrücke ausgewählt damit der Rechner eine Adresse im Homenetz bekommt.
+    - Problem 2 wahrscheinlich spezifisch bei mir: Zweithandy hatte immer wieder kurze abbrüche bei Mobilem Hotspot, sodass nie eine VPN verbindung aufgebaut werden konnte.
+      Lösung: Anderes Handy für mobile Daten nutzen. (Lange rumgetestet)
+    
+    
+  
