@@ -4,6 +4,7 @@
 
 2. Vorbereitungen:
 
+    - VPN einrichten, bei mir schon geschehen. Sollte jede etwas neuere Fritzbox oder ähnliches unterstützen.
     - Anpassung an der Homefirewall um SSH durchzuschleifen. 
     - Feste IP Adresse auf dem Ubuntu vergeben, damit sich die Adresse nicht plötzlich verändert und man nicht mehr auf den Server kommt
           -Oben Rechts bei Netzwerk auf Lan Einstellungen, dann auf das Zahnrad und eine statische Adresse im Netz vergeben
@@ -12,6 +13,8 @@
     - In VirtualBox Netzwerkbrücke ausgewählt damit der Rechner eine Adresse im Homenetz bekommt.
     - Problem 2 wahrscheinlich spezifisch bei mir: Zweithandy hatte immer wieder kurze abbrüche bei Mobilem Hotspot, sodass nie eine VPN verbindung aufgebaut werden konnte.
       Lösung: Anderes Handy für mobile Daten nutzen. (Lange rumgetestet)
+    - Geprüft ob WOL auf Homerechner noch geht. Meißt nach Netzwerkkartentreiben unter Win10 Schwierigkeiten damit, aber scheinbar diesmal nicht.
+    - Final noch ein Test ob alles läuft, soweit scheint aber alles zu passen.
     
     
   
