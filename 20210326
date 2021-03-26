@@ -7,3 +7,4 @@ sudo apt-get install haskell-platform
 cabal update
 Gloss tar.gz download and extract from hackage https://hackage.haskell.org/package/gloss
 cabal install gloss.cabal
+https://andrew.gibiansky.com/blog/haskell/haskell-gloss/
