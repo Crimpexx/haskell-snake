@@ -1,0 +1,7 @@
+Neue VM Ubuntu
+Proxy-Einstellungen
+https://wiki.ubuntuusers.de/Proxyserver/
+apt-get install curl
+sudo apt-get install cabal-install
+sudo apt-get install haskell-platform
+cabal update
