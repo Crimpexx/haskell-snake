@@ -10,5 +10,21 @@ https://unix.stackexchange.com/questions/570240/virtualbox-guest-additions-error
 6.Jump into directiory in terminal
 7.cabal install gloss.cabal
 8.Make project directory: e.g. mkdir snake
-9 cd snake
+9. cd snake
+10. cabal sandbox init
+11. cabal init
+  11.1. Name package: e.g. snaketest
+  11.2. version: Return
+  11.3. Choose license: e.g. GPL-3
+  11.4. Choose autor name: e.g. DMJR
+  11.5. Chhose email: e.g. jonas.rampf@sabel.education
+  11.6. Choose homepage URL: e.g. YourGithubPage
+  11.7. Choose project synopsis: Return
+  11.8. Choose project category: e.g 9
+  11.9. What does the package build: 3
+  11.10. What is the main module: Main.hs
+  11.11. Source directory: none
+  11.12. What base language: 1
+  11.13. Add comments: no
+12. Now there should be a lot of files in the directory
 
