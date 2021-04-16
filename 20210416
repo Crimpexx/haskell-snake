@@ -6,3 +6,6 @@ https://unix.stackexchange.com/questions/570240/virtualbox-guest-additions-error
 2.sudo apt-get install haskell-platform
 3.cabal update
 4.cabal --version
+5.Gloss tar.gz download and extract from hackage https://hackage.haskell.org/package/gloss
+6.Jump into directiory in terminal
+7.cabal install gloss.cabal
