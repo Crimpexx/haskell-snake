@@ -9,3 +9,6 @@ https://unix.stackexchange.com/questions/570240/virtualbox-guest-additions-error
 5.Gloss tar.gz download and extract from hackage https://hackage.haskell.org/package/gloss
 6.Jump into directiory in terminal
 7.cabal install gloss.cabal
+8.Make project directory: e.g. mkdir snake
+9 cd snake
+
