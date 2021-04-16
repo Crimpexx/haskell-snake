@@ -4,3 +4,5 @@ https://unix.stackexchange.com/questions/570240/virtualbox-guest-additions-error
 
 1.sudo apt-get install cabal-install
 2.sudo apt-get install haskell-platform
+3.cabal update
+4.cabal --version
