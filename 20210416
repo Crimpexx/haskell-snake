@@ -1,2 +1,5 @@
 Guter Link für Guest Additions
 https://unix.stackexchange.com/questions/570240/virtualbox-guest-additions-error-kernel-configuration-is-invalid
+
+
+1.sudo apt-get install cabal-install
