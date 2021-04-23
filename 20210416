@@ -30,5 +30,7 @@ https://unix.stackexchange.com/questions/570240/virtualbox-guest-additions-error
 13. Main.hs is your main file to programm.
 14. nano snaketest.cabal
 15. add to file build-depends: ",gloss==1.13.2.1" 
+16. cabal v2-run
+17. a circle should be displayed
     
 
