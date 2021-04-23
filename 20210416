@@ -28,6 +28,7 @@ https://unix.stackexchange.com/questions/570240/virtualbox-guest-additions-error
   11.13. Add comments: no
 12. Now there should be a lot of files in the directory
 13. Main.hs is your main file to programm.
-14. To test if it works run: cabal v2-run
+14. nano snaketest.cabal
+15. add to file build-depends: ",gloss==1.13.2.1" 
     
 
